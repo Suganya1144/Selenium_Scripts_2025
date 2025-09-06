@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 public class CheckBoxExample10 {
 
 	public static void main(String[] args) {
@@ -21,13 +22,11 @@ public class CheckBoxExample10 {
 		BasicCheckbox.click();
 		
 		//2. check the check box is selected
-	    WebElement Notification =driver.findElement(By.xpath
-	    		("/html/body/div[1]/div[5]/div[2]/form/div/div[1]/div[2]/div/div/div/div[2]"));
-		Notification.click();
+		WebElement Notification=driver.findElement(By.xpath
+				("/html/body/div[1]/div[5]/div[2]/form/div/div[1]/div[2]/div/div/div/div[1]/input"));
+		
 		boolean status=Notification.isSelected();
-		//after click action also status is available as false
 				System.out.println(status);
-		//3. Unselect a selected check box
 		
 
 	}
