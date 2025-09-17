@@ -10,4 +10,6 @@ module SeleniumLearning {
 	requires org.seleniumhq.selenium.chrome_driver;
 	requires org.seleniumhq.selenium.firefox_driver;
 	requires org.seleniumhq.selenium.support;
+	requires java.datatransfer;
+	requires java.desktop;
 }
