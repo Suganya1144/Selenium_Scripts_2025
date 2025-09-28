@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" verbose='2'>
+<test name="First Suite">
+<classes>
+<class name="testNG.DependanciesManagement"></class>
+<class name="testNG.DriveACar"></class>
+<class name="testNG.SampleTestcase"></class>
+<class name="testNG.SkipTestCase3"></class>
+</classes>
+</test>
+</suite>

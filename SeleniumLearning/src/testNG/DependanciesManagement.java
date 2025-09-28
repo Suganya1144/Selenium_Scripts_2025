@@ -8,7 +8,7 @@ public class DependanciesManagement {
 	
 	//enabled = false is used for skipping a testcase
 	
-	@Test(enabled=false)// if false below methods won't execute 
+	@Test(enabled=true)// if false below methods won't execute 
 	public void highschool() {
 		System.out.println("High School");
 	}
