@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Test Suite" verbose='2'>
 <test name="First Suite">
-<groups>
-<run>
-<include name="Moto"></include>
-<include name="Vivo"></include>
-</run>
-</groups>
+<parameter name="Name" value="Duck"></parameter>
 <classes>
-<class name="TestNG.GroupingExample">
+<class name="TestNG.ParameterizationExample">
 </class>
+
+</classes>
+</test>
+</suite>
 
 <!-- <class name="testNG.DependanciesManagement"></class>
 <class name="testNG.DriveACar"></class>
 <class name="testNG.SampleTestcase"></class>
 <class name="testNG.SkipTestCase3"></class> -->
 
-</classes>
-</test>
-</suite>
+
+<!-- <groups>
+<run>
+<include name="Moto"></include>
+<include name="Vivo"></include>
+</run>
+</groups> -->
