@@ -1,13 +1,18 @@
-package testNG;
+package TestNG;
 
 import org.testng.annotations.Test;
 
-public class DriveACar {
-	
+public class SkipTestCase3 {
 	@Test(priority = 0)
 	public void StartTheCar()
 	{
 		System.out.println("start the car");
+	}
+	@Test(priority=5, enabled=false)
+	public void TurnTheMusicOn()
+	{
+		
+	System.out.println("Music tunrned on");
 	}
 	@Test(priority = 1)
 	public void PutFirstGear()
