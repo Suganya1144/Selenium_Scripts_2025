@@ -1,0 +1,61 @@
+package TestNG;
+
+import org.testng.annotations.Test;
+
+public class GroupingExample {
+	
+	/*
+	 * Scenario: A big basket is having a different kind of mobiles. let us say
+	 * there are apple phones, Moto, Vivo and lenovo.I want to run tests only for
+	 * VIVO and Moto phones. write a program for that.
+	 */
+	@Test(groups= {"Apple"})
+	public void apple1()
+	{
+		System.out.println("Apple Testing");
+	}
+	
+	@Test(groups= {"Apple"})
+	public void apple2()
+	{
+		System.out.println("Apple Testing");
+	}
+	
+	@Test(groups= {"Moto"})
+
+	public void moto1()
+	{
+		System.out.println("Moto Testing");
+	}
+	@Test(groups= {"Moto"})
+	public void moto2()
+	{
+		System.out.println("Moto Testing");
+	}
+	
+	@Test(groups= {"Vivo"})
+
+	public void vivo1()
+	{
+		System.out.println("Vivo Testing");
+	}
+	
+	@Test(groups= {"Vivo"})
+	public void vivo2()
+	{
+		System.out.println("Vivo Testing");
+	}
+	
+	@Test(groups= {"Lenovo"})
+	public void lenovo1()
+	{
+		System.out.println("Lenovo Testing");
+	}
+	@Test(groups= {"Lenovo"})
+	public void lenovo2()
+	{
+		System.out.println("Lenovo Testing");
+	}
+	
+
+}

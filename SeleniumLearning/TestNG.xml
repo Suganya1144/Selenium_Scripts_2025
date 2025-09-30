@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Test Suite" verbose='2'>
 <test name="First Suite">
+<groups>
+<run>
+<include name="Moto"></include>
+<include name="Vivo"></include>
+</run>
+</groups>
 <classes>
 <class name="TestNG.GroupingExample">
 </class>
