@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Test Suite" verbose='2'>
+<suite name="Test Suite" verbose='2' parallel="methods" thread-count="2">
 <test name="First Suite">
-<parameter name="Name" value="Duck"></parameter>
 <classes>
-<class name="TestNG.ParameterizationExample">
+<class name="TestNG.ParallelTesting">
 </class>
 
 </classes>
 </test>
 </suite>
+
+<!-- Parameterization code
+//<parameter name="Name" value="Duck"></parameter> -->
+
 
 <!-- <class name="testNG.DependanciesManagement"></class>
 <class name="testNG.DriveACar"></class>
