@@ -1,2 +1,3 @@
 # Selenium
-It contains selenium basic scripts using java.
+It contains selenium basic and advanced scripts using java.
+
